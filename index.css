@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: lightcyan;
+                                                
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    min-width: 360px;
+    /* border: 1px solid red; */
+    padding: 20px 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background: #1B244A;
+    
+}
+
+.sub-container-enclosure {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    width: 360px;
+}
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    font-size: 40px;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    color: white;
+}
+
+
+.score-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background: #1B244A;
+    width: 150px;
+}
+
+#home-score, #guest-score {
+    font-size: 50px;
+    margin: 20px 20px;
+    background-color: black;
+    color: red;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.lcd-btn {
+    margin-top: 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px 5px;
+    cursor: pointer;
+    
+}
+
+.clear-btn {
+    margin-top: 20px;
+    width: 150px;
+    line-height: 30px;
+    padding: 5px 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: none;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}

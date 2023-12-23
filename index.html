@@ -1,0 +1,44 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="sub-container-enclosure">
+                <div class="sub-container">
+                    <h3>HOME</h3>
+                    <div class="score-div">
+                            <p id="home-score">0</p>
+                            <div class="btn-container">
+                                <button class="lcd-btn" onClick="incScore('home',1)">+1</button>
+                                <button class="lcd-btn" onclick="incScore('home',3)">+3</button>
+                                <button class="lcd-btn" onclick="incScore('home',5)">+5</button>
+                            </div>
+                    
+                    </div>
+                </div>
+                
+                <div class="sub-container">   
+                    <h3>GUEST</h3>
+                    <div class="score-div">
+                        <p id="guest-score">0</p>
+                            <div class="btn-container">
+                                <button class="lcd-btn" onclick="incScore('guest',1)">+1</button>
+                                <button class="lcd-btn" onclick="incScore('guest',3)">+3</button>
+                                <button class="lcd-btn" onclick="incScore('guest',5)">+5</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="sub-container"> 
+                <button class="clear-btn" onclick="clearScores()">Clear Scores</button>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
